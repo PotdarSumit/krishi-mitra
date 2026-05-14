@@ -1,4 +1,4 @@
-package kirshi_mitra;
+package com.krishi_mitra;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

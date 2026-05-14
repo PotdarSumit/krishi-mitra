@@ -1,8 +1,8 @@
-package kirshi_mitra.entity;
+package com.krishi_mitra.entity;
 
 
 import jakarta.persistence.*;
-import kirshi_mitra.enums.Role;
+import com.krishi_mitra.enums.Role;
 import lombok.*;
 
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package kirshi_mitra;
+package com.krishi_mitra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

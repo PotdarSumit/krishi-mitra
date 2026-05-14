@@ -1,4 +1,4 @@
-package kirshi_mitra.enums;
+package com.krishi_mitra.enums;
 
 public enum OrderStatus {
     PENDING,
