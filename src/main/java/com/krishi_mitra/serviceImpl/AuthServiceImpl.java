@@ -1,4 +1,4 @@
-package com.krishi_mitra.service;
+package com.krishi_mitra.serviceImpl;
 
 import com.krishi_mitra.dto.request.LoginRequest;
 import com.krishi_mitra.dto.request.RegisterRequest;
@@ -6,15 +6,14 @@ import com.krishi_mitra.dto.response.AuthResponse;
 import com.krishi_mitra.entity.User;
 import com.krishi_mitra.repository.UserRepository;
 import com.krishi_mitra.security.JwtUtil;
+import com.krishi_mitra.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.net.PasswordAuthentication;
-
 @Service
 @RequiredArgsConstructor
-public class AuthServiceImpl implements AuthService{
+public class AuthServiceImpl implements AuthService {
 
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
