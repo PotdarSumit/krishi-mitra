@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/krishi_mitra_db
     username: postgres
-    password: sanu
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -22,10 +22,10 @@ server:
 
 app:
   jwt:
-    secret: KrishiMitraSecretKey2024SuperLongSecretKeyForJWTAuthentication
+    secret: ${JWT_SECRET}
     expiration: 86400000
 
 weather:
   api:
-    key: WEATHER_API_KEY
+    key: ${WEATHER_API_KEY}
     url: https://api.openweathermap.org/data/2.5/weather
